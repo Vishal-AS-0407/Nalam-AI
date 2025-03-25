@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "683416806905",
+    "project_id": "nurture-sync",
+    "storage_bucket": "nurture-sync.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683416806905:android:3a450bc1f6d9d5a3ad0928",
+        "android_client_info": {
+          "package_name": "com.nurturesync.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683416806905-huh0lsk9l04o8fo1nfhpn32vcn1hgg8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nurturesync.health",
+            "certificate_hash": "4b8f7bed93272a1ee081ecbc77c8f244104891dd"
+          }
+        },
+        {
+          "client_id": "683416806905-mq1o8370d0kc4gj8venmj5stmgjv8qr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXEsqwLd94zzsAF6WJR6s78H21pU06o8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683416806905-h8gkmtag1tvar5qsdumbetsnv8okdgam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

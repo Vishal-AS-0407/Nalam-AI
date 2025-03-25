@@ -1,0 +1,13 @@
+Flask
+pymongo
+fastapi
+uvicorn
+motor 
+pydantic 
+uvicorn
+crewai
+crewai-tools
+pdfplumber
+paddleocr
+reportlab
+python-dotenv
