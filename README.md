@@ -122,8 +122,3 @@ flutter devices
 
 ---
 
-### Authors
-
-- Nandini Kuppala
-- Vishal A S
-- Sarvesh K
