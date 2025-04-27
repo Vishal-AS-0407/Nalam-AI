@@ -1,124 +1,138 @@
-# NurtureSync
+# 🚀 Project Title
 
-## Overview
-
-NurtureSync is an innovative platform designed for comprehensive health management, particularly focused on individuals managing thyroid and diabetes. This application leverages AI to deliver personalized insights, medical analysis, and much more.
+> **NurtureSync: Your AI-Powered Health Companion**
 
 ---
 
-## Prerequisites
+## 📌 Problem Statement
 
-Before setting up and running the application, ensure the following tools and software are installed on your system:
-
-1. **Flutter SDK** ([Installation Guide](https://flutter.dev/docs/get-started/install))
-2. **Android Studio** ([Download Here](https://developer.android.com/studio))
-3. **Python 3.8+** ([Download Here](https://www.python.org/downloads/))
-4. **pip** (Python package manager)
-5. **Uvicorn** (Install using `pip install uvicorn`)
-6. **Git** ([Download Here](https://git-scm.com/downloads))
+*Problem Statement 1 - Weave AI magic with Groq***
 
 ---
 
-## Getting Started
+## 🎯 Objective
 
-Follow these steps to set up the application:
+NurtureSync is built to assist individuals, particularly those managing **thyroid** and **diabetes**, by providing **personalized health management**.  
+It combines AI insights, medical report analysis, and real-time updates, helping users stay proactive and informed about their health.
 
-### 1. Clone the Repository
+---
 
+## 🧠 Team & Approach
+
+### Team Name:  
+`NurtureSync Team`
+
+### Team Members:  
+- Vishal A S (GitHub / AI Developer)
+- Nandini
+
+### Your Approach:
+- Chose this problem to enhance preventive healthcare using AI.
+- Addressed challenges like real-time OCR, multilingual voice input, and medical data interpretation.
+- Pivoted to using **Groq's JigsawStack** and **ASR APIs** for a scalable and fast real-time system.
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Technologies Used:
+- Frontend: **Flutter**
+- Backend: **FastAPI (Python)** 
+- Database: **Local storage (can integrate cloud databases)**
+- APIs: **OCR**, **ASR**, **LibreTranslate**, **Web Scraping with Playwright**
+- Hosting: **Local with Uvicorn (can move to cloud hosting)**
+
+### Sponsor Technologies Used:
+- ✅ **Groq:** Used JigsawStack for agent orchestration, Groq ASR API for multilingual transcription, OCR API for medical text extraction.
+- [ ] **Monad:**  
+- [ ] **Fluvio:**  
+- [ ] **Base:**  
+- [ ] **Screenpipe:**  
+- [ ] **Stellar:**
+
+---
+
+## ✨ Key Features
+
+- ✅ Personalized health insights using AI.
+- ✅ OCR for medical report scanning and auto-translation.
+- ✅ Real-time multilingual voice input and transcription.
+- ✅ Agent-based task orchestration (data scraping, report generation).
+
+*(Screenshots, GIFs can be added later if needed.)*
+
+---
+
+## 📽️ Demo & Deliverables
+
+- **Demo Video Link:** https://www.youtube.com/watch?v=rx3fVMRsWhA  
+- **Pitch Deck / PPT Link:** https://www.canva.com/design/DAGdmDG1jzk/Y0b2WRfXwRhKwlIj8OSAxg/view?utm_content=DAGdmDG1jzk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb7738e45c2 
+
+---
+
+## ✅ Tasks & Bonus Checklist
+
+- [ ] **Mandatory social media task done**  
+- [ ] **Bonus Task 1 - Badges shared and form filled**  
+- [ ] **Bonus Task 2 - Sprint.dev signup completed**  
+
+---
+
+## 🧪 How to Run the Project
+
+### Requirements:
+- Flutter SDK
+- Python 3.8+
+- pip
+- Uvicorn
+- Android Studio Emulator
+
+### Local Setup:
 ```bash
+# Clone the repo
 git clone git@github.com:Nurture-Sync/Nurture-Sync-Combined.git
 
+# Navigate to repo
 cd Nurture-Sync-Combined
-
 ```
 
-### 2. Launch an Emulator
-
-#### Using Android Studio:
-
-1. Open Android Studio.
-2. Navigate to `Tools > Device Manager` (or `AVD Manager`).
-3. Create a new virtual device or select an existing one.
-4. Click the green play button to start the emulator.
-
-#### Using Flutter:
-
-1. List available emulators:
-   ```bash
-   flutter emulators
-   ```
-2. Launch the desired emulator:
-   ```bash
-   flutter emulators --launch <emulator_name>
-   ```
-3. Verify devices connected:
-   ```bash
-   flutter devices
-   ```
-
-### 3. Run the App
-
-1. Start the Flutter app:
-   ```bash
-   flutter run
-   ```
-
----
-
-### 4. Backend Setup
-
-1. Navigate to the backend folder:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   ```
-2. Start the backend server:
-   ```bash
-    uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-   ```
-3. Verify API functionality:
-   Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser to explore the API documentation.
-
----
-
-## Additional Commands
-
-### Check Flutter Installation
-
-Run the following command to verify your Flutter setup:
-
+#### Launch Android Emulator:
 ```bash
-flutter doctor
-```
-
-This will display any missing dependencies or configuration issues.
-
-### Verify Emulator Setup
-
-Check available devices and emulators:
-
-```bash
+flutter emulators --launch <emulator_name>
 flutter devices
+flutter run
+```
+
+#### Backend Setup:
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 ---
 
-## Troubleshooting
+## 🧬 Future Scope
 
-1. **Emulator not launching**:
+- 📈 Integration with wearable health devices.
+- 🛡️ Data encryption and secure cloud storage.
+- 🌐 Expanded multilingual support and localization.
 
-   - Ensure the Android SDK is installed and configured correctly in Android Studio.
-   - Run `flutter doctor` to check for any missing components.
+---
 
-2. **Backend not starting**:
+## 📎 Resources / Credits
 
-   - Verify that Python 3.8+ is installed.
-   - Check if `uvicorn` is installed using `pip list`. If not, install it using `pip install uvicorn`.
+- Flutter (frontend framework)
+- FastAPI (backend framework)
+- Groq APIs (LLM inference, OCR, ASR)
+- LibreTranslate API
+- Playwright (web scraping tool)
 
-3. **API calls not working**:
+---
 
-   - Confirm the backend server is running on [http://127.0.0.1:8000](http://127.0.0.1:8000).
-   - Check if there are any syntax or dependency issues in the backend code.
+## 🏁 Final Words
+
+Building NurtureSync was an exciting journey! We faced technical challenges like ensuring multilingual support and smooth OCR but Groq’s tools gave a massive speed boost. Learned a lot about agent-based systems and real-time AI workflows during this hackathon!
 
 ---
 
