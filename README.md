@@ -20,7 +20,7 @@ It combines AI insights, medical report analysis, and real-time updates, helping
 ## 🧠 Team & Approach
 
 ### Team Name:  
-`NurtureSync Team`
+`Just Us`
 
 ### Team Members:  
 - Vishal A S (GitHub / AI Developer)
