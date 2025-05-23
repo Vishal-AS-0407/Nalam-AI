@@ -4,12 +4,6 @@
 
 ---
 
-## 📌 Problem Statement
-
-*Problem Statement 1 - Weave AI magic with Groq***
-
----
-
 ## 🎯 Objective
 
 NurtureSync is built to assist individuals, particularly those managing **thyroid** and **diabetes**, by providing **personalized health management**.  
@@ -17,21 +11,8 @@ It combines AI insights, medical report analysis, and real-time updates, helping
 
 ---
 
-## 🧠 Team & Approach
 
-### Team Name:  
-`Just Us`
 
-### Team Members:  
-- Vishal A S (GitHub / AI Developer)
-- Nandini
-
-### Your Approach:
-- Chose this problem to enhance preventive healthcare using AI.
-- Addressed challenges like real-time OCR, multilingual voice input, and medical data interpretation.
-- Pivoted to using **Groq's JigsawStack** and **ASR APIs** for a scalable and fast real-time system.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -42,15 +23,7 @@ It combines AI insights, medical report analysis, and real-time updates, helping
 - APIs: **OCR**, **ASR**, **LibreTranslate**, **Web Scraping with Playwright**
 - Hosting: **Local with Uvicorn (can move to cloud hosting)**
 
-### Sponsor Technologies Used:
-- ✅ **Groq:** Used JigsawStack for agent orchestration, Groq ASR API for multilingual transcription, OCR API for medical text extraction.
-- [ ] **Monad:**  
-- [ ] **Fluvio:**  
-- [ ] **Base:**  
-- [ ] **Screenpipe:**  
-- [ ] **Stellar:**
 
----
 
 ## ✨ Key Features
 
@@ -130,9 +103,5 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ---
 
-## 🏁 Final Words
 
-Building NurtureSync was an exciting journey! We faced technical challenges like ensuring multilingual support and smooth OCR but Groq’s tools gave a massive speed boost. Learned a lot about agent-based systems and real-time AI workflows during this hackathon!
-
----
 
